@@ -1,4 +1,5 @@
 <?php
+//This is test line for git update
 require_once(dirname(__FILE__) . '/../INTER-Mediator/INTER-Mediator.php');
 spl_autoload_register('loadClass');
 
@@ -23,7 +24,7 @@ $gValue = $_GET["v0"];
 $hValue = $_GET["v1"];
 $iValue = $_GET["memo"];
 $jValue = $_GET["deploy"]; //this is not a data for store database.
-//this is just used for switch deply sisitem and sandBox
+//this is just used for switch deply system and sandBox
 $kValue = $_GET["sensor_temp"]; //this is temperature of light sensor  
  if ($aValue < 1) {
      echo json_encode(array("ERROR" => "Invalid Number."));
