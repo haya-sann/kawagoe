@@ -1,5 +1,5 @@
 <?php
-//This is test line for git update
+//This is test line for git update, second time
 require_once(dirname(__FILE__) . '/../INTER-Mediator/INTER-Mediator.php');
 spl_autoload_register('loadClass');
 
