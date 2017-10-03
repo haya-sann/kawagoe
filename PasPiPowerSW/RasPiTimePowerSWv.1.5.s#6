@@ -7439,6 +7439,7 @@ Distributor Buerklin, 11G810</description>
 <part name="R11" library="resistor" deviceset="R-US_" device="MELF0102W" value="10kΩ"/>
 <part name="C7" library="resistor" deviceset="C-EU" device="075-042X103" value="47μF 16V"/>
 <part name="C8" library="resistor" deviceset="C-EU" device="025-024X044" value="0.1μF(104)"/>
+<part name="SV3" library="con-lstb" deviceset="MA03-1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7467,7 +7468,7 @@ Distributor Buerklin, 11G810</description>
 <text x="10.16" y="15.24" size="1.778" layer="96">R3はLEDが暗い場合はもっと小さく。
 40〜100Ωでもいい</text>
 <text x="110.744" y="78.74" size="1.778" layer="91">Raspberry Pi connector</text>
-<text x="78.74" y="10.16" size="1.778" layer="97">【安定化対策】
+<text x="81.28" y="10.16" size="1.778" layer="97">【安定化対策】
 C1の容量を大きめのものに変更（最低推奨値は22μF。実際には47μFくらいがいい？）
 C4を追加。ICソケットの足に直結
 C5を三端子レギュレーターの入力側に追加（NJM2845の推奨値は0.33μF）</text>
@@ -7480,6 +7481,7 @@ C5を三端子レギュレーターの入力側に追加（NJM2845の推奨値�
 したがって、GNDはどれか1本を結線する</text>
 <text x="10.16" y="7.62" size="1.778" layer="96">R4は推奨値は47kΩだが、実際にはそれでは動かなかった。
 10kΩくらいでないとだめ。</text>
+<text x="81.28" y="5.08" size="1.778" layer="97">LED2はローカル開発時の状態表示</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="40.64" y="50.8"/>
@@ -7519,7 +7521,7 @@ C5を三端子レギュレーターの入力側に追加（NJM2845の推奨値�
 <attribute name="NAME" x="2.794" y="68.707" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-4.699" y="65.786" size="1.778" layer="96"/>
 </instance>
-<instance part="S1" gate="1" x="149.86" y="63.5"/>
+<instance part="S1" gate="1" x="165.1" y="63.5"/>
 <instance part="R5" gate="G$1" x="139.7" y="96.52" rot="R180">
 <attribute name="1K" x="138.938" y="98.806" size="1.778" layer="96"/>
 </instance>
@@ -7555,15 +7557,16 @@ C5を三端子レギュレーターの入力側に追加（NJM2845の推奨値�
 <instance part="SV2" gate="G$1" x="15.24" y="116.84"/>
 <instance part="JP2" gate="1" x="88.9" y="121.92"/>
 <instance part="JP3" gate="1" x="78.74" y="121.92"/>
-<instance part="R11" gate="G$1" x="149.86" y="101.6" rot="R270"/>
-<instance part="C7" gate="G$1" x="139.7" y="111.76" smashed="yes">
-<attribute name="NAME" x="141.224" y="112.141" size="1.778" layer="95"/>
-<attribute name="VALUE" x="137.16" y="105.029" size="1.778" layer="96" rot="R90"/>
+<instance part="R11" gate="G$1" x="165.1" y="101.6" rot="R270"/>
+<instance part="C7" gate="G$1" x="149.86" y="111.76" smashed="yes">
+<attribute name="NAME" x="151.384" y="112.141" size="1.778" layer="95"/>
+<attribute name="VALUE" x="147.32" y="105.029" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C8" gate="G$1" x="137.16" y="111.76" smashed="yes">
-<attribute name="NAME" x="139.573" y="112.014" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="142.494" y="104.521" size="1.778" layer="96" rot="R90"/>
+<instance part="C8" gate="G$1" x="139.7" y="111.76" smashed="yes">
+<attribute name="NAME" x="142.113" y="112.014" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="145.034" y="104.521" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="SV3" gate="G$1" x="-10.16" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -7614,8 +7617,8 @@ C5を三端子レギュレーターの入力側に追加（NJM2845の推奨値�
 <wire x1="119.38" y1="114.3" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="116.84" x2="119.38" y2="127" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="106.68" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="116.84" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="106.68" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="116.84" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
 <junction x="119.38" y="116.84"/>
 <junction x="119.38" y="127"/>
 </segment>
@@ -7671,8 +7674,8 @@ C5を三端子レギュレーターの入力側に追加（NJM2845の推奨値�
 <wire x1="5.08" y1="71.12" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
 <junction x="7.62" y="71.12"/>
 <pinref part="S1" gate="1" pin="P"/>
-<wire x1="152.4" y1="58.42" x2="152.4" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="58.42" x2="167.64" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="33.02" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
 <junction x="139.7" y="25.4"/>
@@ -7722,11 +7725,6 @@ C5を三端子レギュレーターの入力側に追加（NJM2845の推奨値�
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="40.64" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <junction x="55.88" y="50.8"/>
-<pinref part="RESET" gate="1" pin="S"/>
-<wire x1="-25.4" y1="78.74" x2="-25.4" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="81.28" x2="-17.78" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="81.28" x2="-17.78" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="53.34" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7773,16 +7771,16 @@ C5を三端子レギュレーターの入力側に追加（NJM2845の推奨値�
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="93.98" y1="83.82" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="71.12" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="71.12" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="71.12" x2="154.94" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="71.12" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="2"/>
-<wire x1="142.24" y1="114.3" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
-<junction x="139.7" y="114.3"/>
+<wire x1="149.86" y1="114.3" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
+<junction x="149.86" y="114.3"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
-<junction x="137.16" y="114.3"/>
+<wire x1="139.7" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
+<junction x="139.7" y="114.3"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -7818,19 +7816,19 @@ C5を三端子レギュレーターの入力側に追加（NJM2845の推奨値�
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="48.26" x2="-30.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="48.26" x2="-2.54" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="SV3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="S1" gate="1" pin="O"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="68.58" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="68.58" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="96.52" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<junction x="149.86" y="96.52"/>
+<junction x="165.1" y="96.52"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -7896,12 +7894,12 @@ C5を三端子レギュレーターの入力側に追加（NJM2845の推奨値�
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="144.78" y1="137.16" x2="144.78" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="137.16" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="24"/>
-<wire x1="144.78" y1="86.36" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="86.36" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="1" pin="6"/>
 <wire x1="96.52" y1="127" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="137.16" x2="144.78" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="137.16" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -8015,13 +8013,20 @@ C5を三端子レギュレーターの入力側に追加（NJM2845の推奨値�
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="106.68" x2="139.7" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="8"/>
-<wire x1="137.16" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="6"/>
 <wire x1="134.62" y1="106.68" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
 <junction x="134.62" y="109.22"/>
-<junction x="137.16" y="106.68"/>
+<junction x="139.7" y="106.68"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<wire x1="-25.4" y1="81.28" x2="-17.78" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="RESET" gate="1" pin="S"/>
+<wire x1="-25.4" y1="78.74" x2="-25.4" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
