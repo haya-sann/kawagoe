@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Volumes/MacHD_Sierra/Users/haya/Dropbox/reserve/DevDoc/git/kawagoe/PasPiPowerSW/KiCadFiles/RasPiTimePowerSWv.16/RasPiTimePowerSWv.sch</source>
+    <date>2017年11月09日 木曜日 02:05:37</date>
+    <tool>Eeschema (2017-10-23 revision a562525)-master</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RasPiTimePowerSWv.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>MSP430G2553</value>
+      <footprint>SOCKET-20</footprint>
+      <libsource lib="RasPiTimePowerSWv-cache" part="DIL20S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9C5A519C6241EB34</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>P-ch MOS FET</value>
+      <footprint>SOT23</footprint>
+      <libsource lib="RasPiTimePowerSWv-rescue" part="BSS84-RESCUE-RasPiTimePowerSWv"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BED066D4DE9AA09</tstamp>
+    </comp>
+    <comp ref="RESET1">
+      <value>Reset SW</value>
+      <footprint>9450-1</footprint>
+      <libsource lib="RasPiTimePowerSWv-cache" part="9450-1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9B15F08A610F2001</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>program switch</value>
+      <footprint>255SB</footprint>
+      <libsource lib="RasPiTimePowerSWv-cache" part="255SB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4ECC595CAAE41935</tstamp>
+    </comp>
+    <comp ref="I2C1">
+      <value>PINHD-1X4</value>
+      <footprint>1X04</footprint>
+      <libsource lib="RasPiTimePowerSWv-cache" part="PINHD-1X4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E67F908D584A151</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>PINHD-1X2</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm</footprint>
+      <libsource lib="RasPiTimePowerSWv-cache" part="PINHD-1X2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4C00AED54D70272E</tstamp>
+    </comp>
+    <comp ref="SV1">
+      <value>MA03-1</value>
+      <footprint>MA03-1</footprint>
+      <libsource lib="RasPiTimePowerSWv-cache" part="MA03-1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>DFC98E2CBBA87586</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>3P Socket</value>
+      <footprint>6410-03</footprint>
+      <libsource lib="RasPiTimePowerSWv-cache" part="22-?-0327-2031"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6EB14CAAD0EA311</tstamp>
+    </comp>
+    <comp ref="SV2">
+      <value>MA12-2</value>
+      <footprint>MA12-2</footprint>
+      <libsource lib="RasPiTimePowerSWv-cache" part="MA12-2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>B9B40C349B48F16F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1μF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A034B68</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>23.5kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A034DCC</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2SC1815</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="transistors" part="2SC1815"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A035627</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0358DD</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A035A4B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>200Ω</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0362C9</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A03649E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A03672F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A036BEC</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A036FDB</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1nF(102)</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A03728B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1nF(102)</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0373A9</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47μF 16V</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x5.3</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0380E0</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>NJM2845DL1-33</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2_Rectifier</footprint>
+      <datasheet>http://akizukidenshi.com/download/ds/jrc/NJM2845.pdf</datasheet>
+      <libsource lib="regul" part="LF33_TO252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0395AE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.33μF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A039923</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1μF(104)</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A039D08</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>47μF 16V</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x5.3</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A03AD92</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1μF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A03AE37</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A03CA07</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="RasPiTimePowerSWv-cache" part="22-?-0327-2031">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">22-?-0327-2031</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RasPiTimePowerSWv-cache" part="255SB">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">255SB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="O" type="passive"/>
+        <pin num="2" name="P" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="2SC1815">
+      <description>50V Vce, 0.15A Ic, Low Noise Audio NPN Transistor, TO-92</description>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2SC1815</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Molded_Narrow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RasPiTimePowerSWv-cache" part="9450-1">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">9450-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="P" type="passive"/>
+        <pin num="3" name="O" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RasPiTimePowerSWv-rescue" part="BSS84-RESCUE-RasPiTimePowerSWv">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS84-RESCUE-RasPiTimePowerSWv</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RasPiTimePowerSWv-cache" part="DIL20S">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">DIL20S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM78M05_TO252">
+      <aliases>
+        <alias>MC78M05_TO252</alias>
+        <alias>KA78M05_TO252</alias>
+        <alias>LF15_TO252</alias>
+        <alias>LF18_TO252</alias>
+        <alias>LF25_TO252</alias>
+        <alias>LF33_TO252</alias>
+        <alias>LF50_TO252</alias>
+        <alias>LF60_TO252</alias>
+        <alias>LF80_TO252</alias>
+        <alias>LF85_TO252</alias>
+        <alias>LF120_TO252</alias>
+        <alias>LP2950-3.0_TO252</alias>
+        <alias>LP2950-3.3_TO252</alias>
+        <alias>LP2950-5.0_TO252</alias>
+        <alias>LF47_TO252</alias>
+        <alias>LF90_TO252</alias>
+      </aliases>
+      <description>Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM78M05.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM78M05_TO252</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-252-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="RasPiTimePowerSWv-cache" part="MA03-1">
+      <fields>
+        <field name="Reference">SV</field>
+        <field name="Value">MA03-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RasPiTimePowerSWv-cache" part="MA12-2">
+      <fields>
+        <field name="Reference">SV</field>
+        <field name="Value">MA12-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RasPiTimePowerSWv-cache" part="PINHD-1X2">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">PINHD-1X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RasPiTimePowerSWv-cache" part="PINHD-1X4">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">PINHD-1X4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="RasPiTimePowerSWv-rescue">
+      <uri>/Volumes/MacHD_Sierra/Users/haya/Dropbox/reserve/DevDoc/git/kawagoe/PasPiPowerSW/KiCadFiles/RasPiTimePowerSWv.16/RasPiTimePowerSWv-rescue.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/Library/Application Support/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/Library/Application Support/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="RasPiTimePowerSWv-cache">
+      <uri>/Volumes/MacHD_Sierra/Users/haya/Dropbox/reserve/DevDoc/git/kawagoe/PasPiPowerSW/KiCadFiles/RasPiTimePowerSWv.16/RasPiTimePowerSWv-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="2" name="Net-(IC1-Pad11)">
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="4" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="5" name="/SCL">
+      <node ref="SV2" pin="5"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="I2C1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(IC1-Pad17)">
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="7" name="Net-(IC1-Pad18)">
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="8" name="Net-(IC1-Pad19)">
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="9" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="11" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="12" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="13" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="14" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="16" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="17" name="Net-(RESET1-Pad1)">
+      <node ref="RESET1" pin="1"/>
+      <node ref="SV1" pin="3"/>
+    </net>
+    <net code="18" name="Net-(RESET1-Pad3)">
+      <node ref="RESET1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(S1-Pad3)">
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="20" name="/SDA">
+      <node ref="SV2" pin="3"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="I2C1" pin="4"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad3)">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="22" name="Net-(SV2-Pad7)">
+      <node ref="SV2" pin="7"/>
+    </net>
+    <net code="23" name="Net-(SV2-Pad11)">
+      <node ref="SV2" pin="11"/>
+    </net>
+    <net code="24" name="Net-(SV2-Pad13)">
+      <node ref="SV2" pin="13"/>
+    </net>
+    <net code="25" name="Net-(SV2-Pad15)">
+      <node ref="SV2" pin="15"/>
+    </net>
+    <net code="26" name="Net-(SV2-Pad19)">
+      <node ref="SV2" pin="19"/>
+    </net>
+    <net code="27" name="Net-(SV2-Pad23)">
+      <node ref="SV2" pin="23"/>
+    </net>
+    <net code="28" name="Net-(SV2-Pad22)">
+      <node ref="SV2" pin="22"/>
+    </net>
+    <net code="29" name="Net-(SV2-Pad8)">
+      <node ref="SV2" pin="8"/>
+    </net>
+    <net code="30" name="Net-(SV2-Pad4)">
+      <node ref="SV2" pin="4"/>
+    </net>
+    <net code="31" name="Net-(SV2-Pad10)">
+      <node ref="SV2" pin="10"/>
+    </net>
+    <net code="32" name="Net-(SV2-Pad12)">
+      <node ref="SV2" pin="12"/>
+    </net>
+    <net code="33" name="Net-(SV2-Pad17)">
+      <node ref="SV2" pin="17"/>
+    </net>
+    <net code="34" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="SV2" pin="18"/>
+    </net>
+    <net code="35" name="Net-(SV2-Pad21)">
+      <node ref="SV2" pin="21"/>
+    </net>
+    <net code="36" name="Net-(SV2-Pad24)">
+      <node ref="SV2" pin="24"/>
+    </net>
+    <net code="37" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="38" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="39" name="Net-(R6-Pad1)">
+      <node ref="SV2" pin="16"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="40" name="Net-(R6-Pad2)">
+      <node ref="S1" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="42" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="IC1" pin="16"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="SV1" pin="2"/>
+      <node ref="RESET1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="SV1" pin="1"/>
+    </net>
+    <net code="45" name="/3.3V">
+      <node ref="C2" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="SV2" pin="1"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="I2C1" pin="1"/>
+    </net>
+    <net code="46" name="Net-(C7-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="SV2" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="47" name="GND">
+      <node ref="IC1" pin="20"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="SV2" pin="9"/>
+      <node ref="SV2" pin="6"/>
+      <node ref="SV2" pin="20"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="SV2" pin="14"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="I2C1" pin="2"/>
+      <node ref="S1" pin="2"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="48" name="+5V">
+      <node ref="Q2" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+  </nets>
+</export>
